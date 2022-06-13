@@ -1,0 +1,16 @@
+
+.menu{
+List-style:none;
+padding-left: 36px;
+}
+
+.menu li:not(;last-child) {
+margin-top: 38px;
+margin-bottom: 75px;
+}
+
+.menu li a{
+color: white;
+text-decoration: none;
+}
+

@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
+    max-height: 2070px;
+}
+.top{
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+}
+.logo img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.top-log{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.top-log li{
+    float: left;
+}
+.top-log li a{
+    padding-left: 42px;
+    padding-right: 42px;
+    line-height: 70px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.top-log li a:hover{
+    background-color: #7A43DD;
+}
+
+.navbar{
+    background-color: #5300E8;
+    height: 100%;
+    width: 300px;
+}
+.nav-menu{
+    list-style: none;
+    text-align: center;
+}
+.nav-menu li:first-child{
+    background-color: #7A43DD;
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 100px;
+    display: block;
+}
+.nav-menu a:hover{
+    background-color: #7A43DD;
+}
+.gms{
+    background-color: #3A3A3A;
+    float: left;
+    height: 1600px;
+    overflow: scroll;
+    margin-left: 300px;
+    padding-right: 91px;
+    position: relative;
+    bottom: 1600px;
+}
+.gms a{
+    display: inline-block;
+    margin-left: 91px;
+    margin-top: 41px;
+}
+.gms h3{
+    font-size: 36px;
+    color: white;
+    margin-left: 78px;
+    margin-top: 62px;
+    text-align: left;
+}
+.gm{
+    text-align: left;
+    width: 277px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 18px;
+}
+.gm-name{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+}
+.gm-price{
+    margin-bottom: 16px;
+    margin-left: 14px;
+}
+
+
+.bottom{
+    height: 400px;
+    line-height: 400px;
+    background-color: black;
+}
+/*
+.bottom a{
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    text-decoration: none;
+}*/
